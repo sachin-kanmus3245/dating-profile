@@ -1,0 +1,181 @@
+.logo{
+    background-color: #ee82ee;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 60px;
+    font-style: italic;
+    
+}
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height:100%;
+    width: 100%;
+    background-image: url(https://getwallpapers.com/wallpaper/full/e/d/4/1382549-vertical-love-background-images-1920x1200.jpg);
+    background-repeat: no-repeat;
+    background-size: 1530px 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 630px;
+    width: 450px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4px;
+}
+.box:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.15;
+}
+.box img{
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.box img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: smooth;
+}
+.text{
+    width: 430px;
+    height: 100px;
+    margin-left: 6px;
+}
+.name{
+    font-size: x-large;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.place{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    font-size: medium;
+}
+.imgheader{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 70px;
+}
+.wrong{
+    width: 50px;
+    object-fit: cover;
+}
+.wrong img{
+    
+    background-color: red;
+    border-radius: 20%;
+    object-fit: cover;
+    margin-left: 330px;
+    margin-top: -3px;
+}
+.right{
+    width: 50px;
+    object-fit: cover;
+}
+.right img{
+    background-color: green;
+    border-radius: 20%;
+    object-fit: cover;
+}
+.page2{
+    height:100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ee82ee;
+    background-repeat: no-repeat;
+    background-size: 1530px 800px;
+}
+.box1{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(255, 235, 205, 0);
+}
+.horibox{
+    border: 1px solid black;
+    width: 600px;
+    height: 300px;
+}
+.aboutme{
+    padding-top: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+.bio{
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+.veribox{
+    width: 600px;
+    height: 300px;
+    display: flex;
+}
+.veribox1{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+}
+.looking{
+    padding-top: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+.oth{
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+.veribox2{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+}
+.ff{
+    padding-top: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+.ffe{
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+/*.page3{
+    height:100%;
+    width: 100%;
+    background-color: aqua;
+}*/
